@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import counterContext from './CounterContext';
 
-const Child = (props) =>{
+const Child = () =>{
+    
     return(
         <div>
-            <h1>Welcome to the {props.greet} </h1>
-            <h2>I am <i> {props.name} </i> </h2>
+            <h1>Welcome to the React World</h1>
         </div>
     );
 }
