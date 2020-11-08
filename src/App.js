@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
 
-  let countState = useState(30);
+  let countState = useState(0);
   // let [count, setCount] = useState(30)
 
   return (
