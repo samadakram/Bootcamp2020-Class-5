@@ -5,10 +5,11 @@ import './App.css';
 
 function App() {
 
-  let [count, setCount] = useState(30)
+  let countState = useState(30);
+  // let [count, setCount] = useState(30)
 
   return (
-    <counterContext.Provider value= {count} >
+    <counterContext.Provider value= {countState} >
       <div>
         <Parent />
       </div>
