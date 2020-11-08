@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Child(){
+const Child = () =>{
     return(
         <div>
-            <h1>This is Child component</h1>
+            <h1>Welcome to the </h1>
         </div>
     );
 }
