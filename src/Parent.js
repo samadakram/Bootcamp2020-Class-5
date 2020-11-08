@@ -1,10 +1,10 @@
 import React from 'react';
 import Child from './Child.js';
 
-const Parent = () =>{
+const Parent = (props) =>{
     return(
         <div>
-            <Child />
+            <Child greet={props.greet} name={props.name} />
         </div>
     );
 }

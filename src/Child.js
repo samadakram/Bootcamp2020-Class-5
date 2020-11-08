@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Child = () =>{
+const Child = (props) =>{
     return(
         <div>
-            <h1>Welcome to the </h1>
+            <h1>Welcome to the {props.greet} </h1>
+            <h2>I am <i> {props.name} </i> </h2>
         </div>
     );
 }
